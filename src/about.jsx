@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
-import './app.css'
+import './App.css'
 import { MdDownload } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
