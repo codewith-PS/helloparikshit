@@ -75,12 +75,32 @@ export default function mid() {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center text-center md:text-left w-full md:w-[700px] relative overflow-hidden' style={{ paddingLeft: '-10px' }}>
-                    <svg className='shake' style={{ marginLeft: '-20px' }} width="450" height="500" xmlns="public/svg-path (1).svg">
-                        <path d="M 3 10 L 3 10 C 3 1 19 3 22 9 S 19 29 13 29 Q 3 26 3 10" transform="scale(17)" fill="#330A50" stroke-width='0.2' stroke='#B941FF' />
-                    </svg>
-                    <img src='IMG_20250818_120825.png' width={368} height={200} alt='image' className="shake absolute z-10" style={{ top: '-50px' }} />
-                </div>
+             <div className='flex justify-center items-center w-full md:w-[700px] relative overflow-visible px-4'>
+  <div className='relative w-full max-w-[450px]'>
+    {/* Background SVG */}
+    <svg
+      className='w-full h-auto'
+      viewBox="0 0 450 500"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M 3 10 L 3 10 C 3 1 19 3 22 9 S 19 29 13 29 Q 3 26 3 10"
+        transform="scale(17)"
+        fill="#330A50"
+        strokeWidth="0.2"
+        stroke="#B941FF"
+      />
+    </svg>
+
+    {/* Image on top of SVG */}
+    <img
+      src='IMG_20250818_120825.png'
+      alt='Parikshit'
+      className="absolute top-15 left-1/2 -translate-x-1/2 -translate-y-1/4 w-[80%] max-w-[400px] h-auto object-contain z-10"
+    />
+  </div>
+</div>
+
             </section>
 
             <section id="skills" className=" h-screen pt-40 flex flex-wrap justify-center items-center text-white relative" style={{ backgroundColor: '#170E26', height: 'max-content' }}>
