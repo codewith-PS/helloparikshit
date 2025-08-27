@@ -49,7 +49,7 @@ export default function mid() {
     return (
         <>
             <section id='home' className="min-h-screen pt-20 font-serif flex flex-col md:flex-row justify-around items-center text-white px-4" style={{ backgroundColor: '#140C22' }}>
-                <div data-aos="fade-right" className="text-start flex flex-col gap-4 justify-around md:text-left w-full md:w-[700px] h-90 p-2 rounded-md">
+                <div data-aos="fade-right" className="text-start flex flex-col gap-4 justify-around md:text-left w-full md:w-[700px] p-2 rounded-md">
                     <h2 className="text-2xl">
                         <span className="text-neutral-200">
                             <Typewriter
@@ -75,8 +75,8 @@ export default function mid() {
                         </div>
                     </div>
                 </div>
-             <div className='flex justify-center items-center w-full md:w-[700px] relative overflow-visible px-4'>
-  <div className='relative w-full max-w-[450px]'>
+             <div className='flex justify-center items-center w-full md:w-[700px] relative overflow-hidden px-4'>
+  <div className='shake relative w-full max-w-[450px]'>
     {/* Background SVG */}
     <svg
       className='w-full h-auto'
