@@ -236,18 +236,18 @@ export default function mid() {
                     </button>
                 </form>
 
-                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" className="flex flex-col relative justify-center gap-10 md:text-left w-full md:w-[620px] h-140 pl-1 rounded-md" style={{ fontFamily: 'serif' }}>
-                    <div className='w-80 pl-10 relative'>
+                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" className="flex flex-col relative justify-center gap-10 md:text-left w-full md:w-[620px] h-140 rounded-md" style={{ fontFamily: 'serif' }}>
+                    <div className='w-80 pl-5 relative'>
                         <MdLocalPhone size={40} style={{ background: '#800080', padding: '4px', borderRadius: '50%', position: 'relative', left: '25px', top: "50px" }} />
                         <p className='text-2xl ml-20' style={{ color: '#A5A5A5' }}>Phone</p>
                         <p className='ml-20'>+91 7065376040</p>
                     </div>
-                    <div className='w-85 pl-10 relative'>
+                    <div className='w-85 pl-5 relative'>
                         <MdEmail size={40} style={{ background: '#800080', padding: '4px', borderRadius: '50%', position: 'relative', left: '25px', top: "50px" }} />
                         <p className='text-2xl ml-20' style={{ color: '#A5A5A5' }}>Email</p>
                         <p className='ml-20'>parikshits563@gmail.com</p>
                     </div>
-                    <div className='w-95 pl-10 relative'>
+                    <div className='w-95 pl-5 relative'>
                         <MdLocationOn size={40} style={{ background: '#800080', padding: '4px', borderRadius: '50%', position: 'relative', left: '25px', top: "50px" }} />
                         <p className='text-2xl ml-20' style={{ color: '#A5A5A5' }}>Adress</p>
                         <p className='ml-20'>Navyug Market GZB, India</p>
