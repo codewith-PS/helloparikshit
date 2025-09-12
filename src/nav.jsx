@@ -52,7 +52,7 @@ export default function Nav() {
       id="fset"
     >
       <div data-aos="fade-down" className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 text-lg" style={{fontFamily:"roboto"}}>
           {/* Logo */}
           <div
             className="cursor-pointer text-2xl font-bold text-white"
