@@ -139,7 +139,7 @@ export default function mid() {
                 </div>
                 <div data-aos="zoom-out-left" className="flex flex-col relative justify-center gap-6 md:text-left w-full md:w-[520px] h-140 p-6 rounded-md overflow-hidden">
                     <div className='h-40 w-full flex text-4xl justify-center' style={{ fontFamily: 'Montserrat', alignItems: "center" }}><TfiMedall size={38} />&nbsp;<span className='bg-gradient-to-r from-purple-700 via-fuchsia-300 to-fuchsia-700 text-transparent bg-clip-text'>My Experience</span></div>
-                    <div className='h-[200px] w-full flex flex-col justify-evenly pl-4' style={{ backgroundColor: '#292137', fontFamily: 'initial', borderRadius: '10px' }}>
+                    {/* <div className='h-[200px] w-full flex flex-col justify-evenly pl-4' style={{ backgroundColor: '#292137', fontFamily: 'initial', borderRadius: '10px' }}>
                         <p className='text-1xl' style={{ color: '#BB9AFF' }}>Oct 2024-Dec 2024</p>
                         <p className='text-2xl'>Master-Tech Universe</p>
                         <p className='text-1xl'>Full Stack Developer (Intern)</p>
@@ -148,7 +148,7 @@ export default function mid() {
                         <p className='text-1xl' style={{ color: '#BB9AFF' }}>Jan 2025-Aug 2025</p>
                         <p className='text-2xl'>Novaspire Digital Media Pvt Ltd</p>
                         <p className='text-1xl'>Full Stack Developer</p>
-                    </div>
+                    </div> */}
                     <div className='h-[200px] w-full flex flex-col justify-evenly pl-4' style={{ backgroundColor: 'transparent', fontFamily: 'initial', borderRadius: '10px' }}></div>
                 </div>
             </section>
