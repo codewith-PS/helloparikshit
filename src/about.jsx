@@ -12,9 +12,6 @@ export default function about() {
         <>
             <section className="min-h-screen font-serif flex flex-col mt-4 md:flex-row justify-around items-center text-white px-4" style={{ backgroundColor: '#140C22'}}>
                 <div className="text-start flex flex-col gap-4 justify-around md:text-left w-full md:w-[700px] h-90 p-6 rounded-md">
-                    {/* <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                        Hello, I'm Arpit
-                    </h1> */}
                     <h2 className="text-2xl">
                         <span className="text-neutral-200">
                             <Typewriter
@@ -32,7 +29,7 @@ export default function about() {
                     <p className='font-semibold text-5xl bg-gradient-to-r from-purple-500 via-fuchsia-200 to-fuchsia-700 text-transparent bg-clip-text' style={{ fontFamily: 'serif', fontWeight: 'normal' }}>Web Developer</p>
                     <p className='text-2xl'>I simplify complex user experience challenges to craft thoughtful, scalable solutions that reach millions driving engagement and lasting impact.</p>
                     <div className=' flex justify-start sm:flex-row items-center gap-4'>
-                        <button style={{ border: '2px solid #AE4BFF', cursor: "pointer", color: '#AE4BFF', borderRadius: '50px', width: 'max-content', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', padding: '8px 15px' }}><a href="parikshit resume....pdf">Download CV </a><MdDownload size={20}/></button>
+                        <button style={{ border: '2px solid #AE4BFF', cursor: "pointer", color: '#AE4BFF', borderRadius: '50px', width: 'max-content', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', padding: '8px 15px' }}><a href="/parikshit CV.pdf">Download CV </a><MdDownload size={20}/></button>
                         <div className='flex gap-2'>
                             <a href='#' className='shake'><FaLinkedin size={36} style={{ border: '2px solid #AE4BFF', padding: '5px 0px', borderRadius: '50px' }} /></a>
                             <a href='#' className='shake'><SiGithub size={36} style={{ border: '2px solid #AE4BFF', padding: '5px 0px', borderRadius: '50px' }} /></a>

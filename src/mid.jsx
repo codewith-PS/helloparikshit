@@ -67,7 +67,7 @@ export default function mid() {
                     <p className='font-semibold text-5xl bg-gradient-to-r from-purple-500 via-fuchsia-200 to-fuchsia-700 text-transparent bg-clip-text' style={{ fontFamily: 'serif', fontWeight: 'normal' }}>Web Developer</p>
                     <p className='text-2xl'>I simplify complex user experience challenges to craft thoughtful, scalable solutions that reach millions driving engagement and lasting impact.</p>
                     <div className=' flex justify-start sm:flex-row items-center gap-4'>
-                        <button style={{ border: '2px solid #AE4BFF', cursor: "pointer", color: '#AE4BFF', borderRadius: '50px', width: 'max-content', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', padding: '8px 15px' }}><a href="parikshit resume new....pdf">Download CV </a><MdDownload size={20} /></button>
+                        <button style={{ border: '2px solid #AE4BFF', cursor: "pointer", color: '#AE4BFF', borderRadius: '50px', width: 'max-content', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', padding: '8px 15px' }}><a href="parikshit CV.pdf">Download CV </a><MdDownload size={20} /></button>
                         <div className='flex gap-2'>
                             <a href='https://www.linkedin.com/in/parikshit-singh-aa8221268/' className='shake'><FaLinkedin size={36} style={{ border: '2px solid #AE4BFF', padding: '5px 0px', borderRadius: '50px' }} /></a>
                             <a href='https://github.com/codewith-PS' className='shake'><SiGithub size={36} style={{ border: '2px solid #AE4BFF', padding: '5px 0px', borderRadius: '50px' }} /></a>
