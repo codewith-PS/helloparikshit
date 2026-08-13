@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
 import Nav from './nav'; // tumhara navbar component
-import './app.css';
+import './App.css';
 import Certificate from './certificate';
 // import { Typewriter } from 'react-simple-typewriter';
 // import { MdDownload } from "react-icons/md";
